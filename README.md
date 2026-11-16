@@ -1,46 +1,129 @@
 # Ant Clean Mac
 
-官方网站：[zimuai.top](https://zimuai.top/)
+**简体中文** · [English](README.en.md)
 
-专为 Apple Silicon (M 系列芯片) 打造的轻量级 macOS 系统清理与进程监控工具。
+看清占用，再决定清理什么。Ant Clean Mac 是面向 Apple Silicon 的 macOS 清理、应用管理与进程监控工具。
 
-## 下载安装
+[官方网站](https://zimuai.top/) · [下载 v1.0.1](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.1/Ant-Clean-Mac-1.0.1-arm64.dmg) · [发行说明](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.1) · [反馈问题](https://github.com/Barsminto/ant-clean-mac/issues)
 
-[下载 Ant Clean Mac v1.0.1（Apple Silicon）](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.1/Ant-Clean-Mac-1.0.1-arm64.dmg) · [发行说明与 SHA256](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.1)
+## 适合什么场景
 
-适用于 Apple Silicon（arm64），macOS 15+。免费使用，无需登录、激活或机器登记。已通过 Developer ID 签名与 Apple 公证，App 与 DMG 均附带公证票据。
+- 磁盘空间逐渐减少，想找出缓存、开发残留和大文件。
+- 应用越装越多，需要按体积或使用记录整理，并检查关联文件。
+- 开机启动项难以管理，或需要了解高占用进程与端口连接。
+- 希望在本机查看扫描结果，自己选择清理范围，而不是盲目一键删除。
 
-For Apple Silicon, macOS 15+. Free to use without login, activation or device registration. Developer ID signed and Apple notarized, with stapled tickets for app and DMG.
+## 功能一览
 
-打开 DMG，将 Ant Clean.app 拖到 Applications。清理前请核对范围并备份。
+### 系统总览
+查看磁盘空间、内存、CPU、运行时间与高占用进程，快速了解当前状态。资源数字是实时观测值，不代表清理后能获得固定性能提升。
 
-## 核心功能
+### 进程与端口
+查看进程资源占用、历史曲线、父子进程及网络/端口连接关系，可按需终止进程。结束或强制结束进程可能中断任务、网络连接并丢失未保存内容。
 
-- **系统总览（Dashboard）**：实时监控磁盘空间、内存使用、CPU 负载与高占用 Top 5 进程。
-- **进程监控**：查看进程实时资源曲线、监听端口及父子进程/网络连接关系。
-- **系统垃圾清理**：深度扫描系统缓存、应用日志、Xcode 与多语言开发残留。
-- **应用卸载**：支持按大小、最近安装、从未使用排序，彻底清理应用及关联残留。
-- **启动管理**：管理 LaunchAgents / LaunchDaemons 启动项，支持批量禁用与启用。
-- **大文件清理 & 隐私清理**：快速定位占空间大文件，清理浏览器与信息附件痕迹。
+### 系统垃圾
+扫描系统缓存、应用日志、Xcode 与多语言开发残留等范围。查看扫描结果后勾选清理；缓存可能重建，开发工具之后也可能需要重新下载或编译相关文件。
 
-## 免费使用 · 为爱发电
+### 应用卸载
+按大小、最近安装或使用情况筛选和排序应用，检查关联配置与残留文件。最近使用、安装时间和“从未使用”等信息依赖 Spotlight 元数据及可用的文件时间，缺失记录不等于从未运行；关联文件识别也不保证完整或仅由一个应用使用。
 
-当前免费客户端无需登录、激活或机器登记。自愿支持维护，不解锁功能。
+### 启动管理
+查看 LaunchAgents 与 LaunchDaemons，支持批量启用、停用与移除。需要权限的批量操作会合并请求管理员授权；操作可能影响系统服务，不能把未知启动项都当作垃圾。
+
+### 大文件查找
+使用 50 MB、100 MB、250 MB、500 MB 等阈值查找大体积文件，按大小查看并选择删除。请先确认文件用途，不需要一次清空全部结果。
+
+### 隐私清理
+按所选范围整理浏览器痕迹与信息附件等本机数据。请确认账号、浏览记录或附件是否仍需保留，并在清理前退出相关应用；无法访问的文件可能受 macOS 权限限制。
+
+## 真实界面
+
+以下为客户端中文界面实拍。总览进程列表已遮挡保护隐私；指标仅为拍摄时状态，工具页为未扫描状态。
+
+![系统总览：磁盘、内存、CPU 和快捷工具，进程列表已遮挡](https://zimuai.top/assets/app-dashboard-20261116.webp)
 
 <details>
-<summary>支付宝自愿打赏 / Support via Alipay</summary>
+<summary>查看系统垃圾与大文件界面</summary>
+
+![系统垃圾扫描范围，尚未扫描](https://zimuai.top/assets/app-system-junk-20261116.webp)
+
+![大文件大小阈值设置，未展示个人文件](https://zimuai.top/assets/app-large-files-20261116.webp)
+
+</details>
+
+## 系统要求
+
+- Apple Silicon（M 系列），仅提供 arm64 安装包；**不支持 Intel Mac**。
+- macOS 15 或更新版本。
+- 当前版本：**1.0.1（build 2）**，界面支持简体中文和 English。
+
+## 下载与安装
+
+1. [下载正式 DMG](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.1/Ant-Clean-Mac-1.0.1-arm64.dmg)，也可先查看[发行说明](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.1)。
+2. 打开 DMG，将 **Ant Clean.app** 拖到 **Applications（应用程序）**。
+3. 从应用程序文件夹启动。首次使用先查看状态、选择扫描范围，再审核结果。
+
+该版本使用 **Developer ID Application** 签名，启用 Hardened Runtime 与安全时间戳，已获 **Apple 公证**；App 和 DMG 均附带公证票据。无需关闭 Gatekeeper 或系统安全保护。签名、公证不等于保证软件永无缺陷。
+
+需要校验下载时，可获取 [SHA256SUMS](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.1/SHA256SUMS)：
+
+```bash
+shasum -a 256 Ant-Clean-Mac-1.0.1-arm64.dmg
+```
+
+将输出与对应版本的 SHA256SUMS 比较；不要混用其他版本的校验值。
+
+## 首次使用与权限
+
+- 在设置中选择中文或英文、调整监控采样间隔。
+- 文件扫描和清理按所选范围在本机进行。当前免费客户端无需账号、登录、激活或机器登记。
+- 某些目录受 macOS 文件访问权限限制；只在了解用途时授予必要权限。权限不足可能导致结果不完整，不表示文件不存在。
+- 系统级启动项操作可能弹出 macOS 管理员授权提示，请先核对操作。不要向反馈区提供管理员密码。
+
+## 清理前请注意
+
+**先备份重要数据，再确认所选项目。** 不同功能的删除方式不同：部分文件操作会优先移入废纸篓，但失败时可能直接删除；应用卸载、部分垃圾清理及系统级启动项移除也可能直接删除。不要假设所有内容都能从废纸篓恢复。
+
+应用关联文件可能被其他应用使用；浏览器数据、附件和开发文件也可能仍有价值。结束进程可能丢失未保存内容，启动项更改可能影响服务。请仅操作你有权管理的设备与数据。
+
+## 常见问题
+
+**免费吗？有订阅或激活吗？**  
+v1.0.1 的现有功能免费，无需登录、激活或机器登记，没有自动续费。打赏自愿，不解锁功能或承诺更新时限。
+
+**必须联网吗？**  
+当前客户端的本机扫描、清理、监控及内置法律阅读不依赖账号或授权服务器。GitHub、官网链接、下载和反馈需要网络；macOS 也可能进行自身安全检查。
+
+**为什么有些文件或启动项无法处理？**  
+可能受系统保护、访问权限、文件正在使用或管理员授权限制。先确认用途与权限，不建议为清理而降低系统安全设置。
+
+**卸载会移除所有残留吗？**  
+会查找可识别的关联文件，但不能保证覆盖所有位置；也请避免误删共享数据。
+
+**隐私政策和条款在哪里？**  
+可阅读[隐私政策](https://zimuai.top/privacy/)与[用户条款](https://zimuai.top/terms/)，App 设置中也有完整离线中英文阅读入口。网站有访问日志及语言偏好存储，历史服务有独立的数据处理边界，详情以政策为准。
+
+## 反馈问题
+
+请在 [GitHub Issues](https://github.com/Barsminto/ant-clean-mac/issues) 提供：应用版本、macOS 版本、芯片型号、复现步骤、预期与实际结果，以及必要的**脱敏**截图。
+
+不要公开提交个人文件、用户名/私人路径、令牌、授权码、完整日志或密码。隐私请求请先仅提交不含敏感信息的联系请求，协商合适渠道。
+
+## 为爱发电
+
+Star、分享、建议或自愿打赏都能支持维护。打赏不解锁功能，不构成订阅。
+
+<details>
+<summary>支付宝自愿打赏</summary>
 
 ![支付宝收款二维码，收款人 antiumbo（**阳）](assets/alipay-support.png)
 
 金额自愿，不解锁功能。付款前请核对收款人。
-Choose any amount. No feature unlocks. Verify the recipient before paying.
 
 </details>
 
-公开仓库用于下载与反馈，客户端源码未开源。
+## 关于本仓库
 
-## 反馈与建议
-
-遇到问题或有功能建议，欢迎在 [GitHub Issues](https://github.com/Barsminto/ant-clean-mac/issues) 反馈。请附上 macOS 版本、应用版本和复现步骤，避免提交隐私文件或敏感信息。
+这是下载与反馈仓库，**不是客户端源码仓库**。免费使用不等于开源，也不授予未明确许可的再分发或商用权利。
 
 © 2026 Ant Clean Mac. All rights reserved.
