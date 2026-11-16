@@ -1,5 +1,7 @@
 # Ant Clean Mac
 
+官方网站：[zimuai.top](https://zimuai.top/)
+
 专为 Apple Silicon (M 系列芯片) 打造的轻量级 macOS 系统清理与进程监控工具。
 
 ## 下载安装
