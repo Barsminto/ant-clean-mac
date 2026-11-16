@@ -6,7 +6,13 @@
 
 ## 下载安装
 
-新版免费客户端安装包准备中（Apple Silicon · macOS 15+）。现有历史发行包并非此次正式签名公证版本，请等待新版发布。
+[下载 Ant Clean Mac v1.0.1（Apple Silicon）](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.1/Ant-Clean-Mac-1.0.1-arm64.dmg) · [发行说明与 SHA256](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.1)
+
+适用于 Apple Silicon（arm64），macOS 15+。免费使用，无需登录、激活或机器登记。已通过 Developer ID 签名与 Apple 公证，App 与 DMG 均附带公证票据。
+
+For Apple Silicon, macOS 15+. Free to use without login, activation or device registration. Developer ID signed and Apple notarized, with stapled tickets for app and DMG.
+
+打开 DMG，将 Ant Clean.app 拖到 Applications。清理前请核对范围并备份。
 
 ## 核心功能
 
