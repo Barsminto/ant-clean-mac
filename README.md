@@ -6,7 +6,7 @@
 
 ## 下载安装
 
-前往 [Releases](https://github.com/Barsminto/ant-clean-mac/releases) 下载最新版本的 `.dmg` 安装包（仅支持 Apple Silicon `arm64`），双击打开后将 **Ant Clean.app** 拖入 **Applications** 即可使用。
+新版免费客户端安装包准备中（Apple Silicon · macOS 15+）。现有历史发行包并非此次正式签名公证版本，请等待新版发布。
 
 ## 核心功能
 
@@ -19,14 +19,22 @@
 
 ## 免费使用 · 为爱发电
 
-Ant Clean Mac 正在从试用 / 激活模式调整为免费使用：新版全部现有功能免费，无需登录、激活或机器登记。
+当前免费客户端无需登录、激活或机器登记。自愿支持维护，不解锁功能。
 
-免费使用，持续维护。如果这个工具帮到了你，欢迎自愿打赏，支持后续更新。打赏不会解锁额外功能。
+<details>
+<summary>支付宝自愿打赏 / Support via Alipay</summary>
 
-打赏渠道暂未开放；在正式提供收款链接或收款码前，你也可以通过 Star、分享或反馈问题支持这个工具。
+![支付宝收款二维码，收款人 antiumbo（**阳）](assets/alipay-support.png)
 
-> 免费化改动已在客户端源码中完成，尚未替换公开的 DMG。历史发行包以其实际行为为准；免费版安装包发布后会在 Releases 说明。此公开仓库用于下载与反馈，不代表客户端源码已开源。
+金额自愿，不解锁功能。付款前请核对收款人。
+Choose any amount. No feature unlocks. Verify the recipient before paying.
+
+</details>
+
+公开仓库用于下载与反馈，客户端源码未开源。
 
 ## 反馈与建议
 
 遇到问题或有功能建议，欢迎在 [GitHub Issues](https://github.com/Barsminto/ant-clean-mac/issues) 反馈。请附上 macOS 版本、应用版本和复现步骤，避免提交隐私文件或敏感信息。
+
+© 2026 Ant Clean Mac. All rights reserved.
