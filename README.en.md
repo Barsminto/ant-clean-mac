@@ -55,7 +55,17 @@ These captures show the Chinese interface. Process lists are redacted for privac
 
 - Apple Silicon (M series), **arm64 only; Intel Macs are not supported**.
 - macOS 15 or later.
-- Current release: **1.0.2 (build 9)**. The interface supports Simplified Chinese and English. Starting with this release, the sidebar shows the version and can open a newer official download.
+- Current release: **1.0.2 (build 9)**. The interface supports Simplified Chinese and English. Starting with this release, the sidebar shows the version and can open a newer official download. The full history is in the [release notes](CHANGELOG.en.md).
+
+## Release notes
+
+[CHANGELOG.en.md](CHANGELOG.en.md) records the changes from 1.0 through the current release. 1.0.2 (build 9) includes:
+
+- A signed, notarized installer downloaded from the website.
+- The current version shown at the bottom of the sidebar.
+- Select-all no longer freezes the interface on large results.
+- Process details stay closed until the marker at the end of a row is clicked.
+- Uninstall confirms that files are deleted directly and are not moved to the Trash.
 
 ## Download and install
 
