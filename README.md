@@ -4,7 +4,7 @@
 
 看清占用，再决定清理什么。Ant Clean Mac 是面向 Apple Silicon 的 macOS 清理、应用管理与进程监控工具。
 
-[官方网站](https://zimuai.top/) · [下载 v1.0.2](https://zimuai.top/download/Ant-Clean-Mac-1.0.2-arm64.dmg) · [反馈问题](https://github.com/Barsminto/ant-clean-mac/issues)
+[官方网站](https://zimuai.top/) · [下载 v1.0.2](https://zimuai.top/download/Ant-Clean-Mac-1.0.2-arm64.dmg) · [发行说明](CHANGELOG.md) · [反馈问题](https://github.com/Barsminto/ant-clean-mac/issues)
 
 ## 适合什么场景
 

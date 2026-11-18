@@ -4,7 +4,7 @@
 
 Understand what takes up space before deciding what to remove. Ant Clean Mac brings cleanup, app management and process monitoring to Apple Silicon Macs.
 
-[Website](https://zimuai.top/) · [Download v1.0.2](https://zimuai.top/download/Ant-Clean-Mac-1.0.2-arm64.dmg) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
+[Website](https://zimuai.top/) · [Download v1.0.2](https://zimuai.top/download/Ant-Clean-Mac-1.0.2-arm64.dmg) · [Release notes](CHANGELOG.en.md) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
 
 ## When it helps
 
