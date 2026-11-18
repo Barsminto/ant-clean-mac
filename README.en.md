@@ -4,7 +4,7 @@
 
 Understand what takes up space before deciding what to remove. Ant Clean Mac brings cleanup, app management and process monitoring to Apple Silicon Macs.
 
-[Website](https://zimuai.top/) · [Download v1.0.2](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.2/Ant-Clean-Mac-1.0.2-arm64.dmg) · [Release notes](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.2) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
+[Website](https://zimuai.top/) · [Download v1.0.2](https://zimuai.top/download/Ant-Clean-Mac-1.0.2-arm64.dmg) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
 
 ## When it helps
 
@@ -59,13 +59,13 @@ These captures show the Chinese interface. Process lists are redacted for privac
 
 ## Download and install
 
-1. [Download the official DMG](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.2/Ant-Clean-Mac-1.0.2-arm64.dmg) or read the [release notes](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.2).
+1. [Download the official DMG](https://zimuai.top/download/Ant-Clean-Mac-1.0.2-arm64.dmg).
 2. Open it and drag **Ant Clean.app** to **Applications**.
 3. Launch from Applications. Start by reviewing status, choosing a scan scope and checking the results.
 
 This release is **Developer ID Application signed**, uses Hardened Runtime and a secure timestamp, and is **Apple notarized**. The DMG has a stapled notarization ticket. Signing and notarization do not guarantee that software has no defects.
 
-To verify your download, obtain [SHA256SUMS](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.2/SHA256SUMS) and run:
+To verify your download, obtain [SHA256SUMS](https://zimuai.top/download/SHA256SUMS) and run:
 
 ```bash
 shasum -a 256 Ant-Clean-Mac-1.0.2-arm64.dmg
