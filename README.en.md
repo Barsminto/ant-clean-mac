@@ -4,7 +4,7 @@
 
 Understand what takes up space before deciding what to remove. Ant Clean Mac brings cleanup, app management and process monitoring to Apple Silicon Macs.
 
-[Website](https://zimuai.top/) · [Download v1.0.1](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.1/Ant-Clean-Mac-1.0.1-arm64.dmg) · [Release notes](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.1) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
+[Website](https://zimuai.top/) · [Download v1.0.2](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.2/Ant-Clean-Mac-1.0.2-arm64.dmg) · [Release notes](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.2) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
 
 ## When it helps
 
@@ -55,20 +55,20 @@ These captures show the Chinese interface. Process lists are redacted for privac
 
 - Apple Silicon (M series), **arm64 only; Intel Macs are not supported**.
 - macOS 15 or later.
-- Current release: **1.0.1 (build 2)**. The interface supports Simplified Chinese and English.
+- Current release: **1.0.2 (build 9)**. The interface supports Simplified Chinese and English. Starting with this release, the sidebar shows the version and can open a newer official download.
 
 ## Download and install
 
-1. [Download the official DMG](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.1/Ant-Clean-Mac-1.0.1-arm64.dmg) or read the [release notes](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.1).
+1. [Download the official DMG](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.2/Ant-Clean-Mac-1.0.2-arm64.dmg) or read the [release notes](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.2).
 2. Open it and drag **Ant Clean.app** to **Applications**.
 3. Launch from Applications. Start by reviewing status, choosing a scan scope and checking the results.
 
-This release is **Developer ID Application signed**, uses Hardened Runtime and a secure timestamp, and is **Apple notarized**. Both the app and DMG have stapled notarization tickets. There is no need to disable Gatekeeper or system security protections. Signing and notarization do not guarantee that software has no defects.
+This release is **Developer ID Application signed** and uses Hardened Runtime with a secure timestamp. It is **not yet Apple notarized**, so Gatekeeper may block it after download. Signing does not guarantee that software has no defects.
 
-To verify your download, obtain [SHA256SUMS](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.1/SHA256SUMS) and run:
+To verify your download, obtain [SHA256SUMS](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.2/SHA256SUMS) and run:
 
 ```bash
-shasum -a 256 Ant-Clean-Mac-1.0.1-arm64.dmg
+shasum -a 256 Ant-Clean-Mac-1.0.2-arm64.dmg
 ```
 
 Compare the output with SHA256SUMS from the same release, not a different version.
@@ -89,7 +89,7 @@ Related files can be shared by other apps. Browser data, attachments and develop
 ## FAQ
 
 **Is it free? Are there subscriptions or activation?**  
-Existing v1.0.1 features are free, without login, activation or device registration. There is no automatic renewal. Donations are optional and do not unlock features or guarantee updates on a schedule.
+Existing v1.0.2 features are free, without login, activation or device registration. There is no automatic renewal. Donations are optional and do not unlock features or guarantee updates on a schedule.
 
 **Does it need an internet connection?**  
 Local scanning, cleanup, monitoring and built-in legal reading do not depend on an account or licensing server. GitHub, website links, downloads and feedback need network access. macOS may also perform its own security checks.

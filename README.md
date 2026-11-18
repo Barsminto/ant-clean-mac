@@ -4,7 +4,7 @@
 
 看清占用，再决定清理什么。Ant Clean Mac 是面向 Apple Silicon 的 macOS 清理、应用管理与进程监控工具。
 
-[官方网站](https://zimuai.top/) · [下载 v1.0.1](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.1/Ant-Clean-Mac-1.0.1-arm64.dmg) · [发行说明](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.1) · [反馈问题](https://github.com/Barsminto/ant-clean-mac/issues)
+[官方网站](https://zimuai.top/) · [下载 v1.0.2](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.2/Ant-Clean-Mac-1.0.2-arm64.dmg) · [发行说明](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.2) · [反馈问题](https://github.com/Barsminto/ant-clean-mac/issues)
 
 ## 适合什么场景
 
@@ -55,20 +55,20 @@
 
 - Apple Silicon（M 系列），仅提供 arm64 安装包；**不支持 Intel Mac**。
 - macOS 15 或更新版本。
-- 当前版本：**1.0.1（build 2）**，界面支持简体中文和 English。
+- 当前版本：**1.0.2（build 9）**，界面支持简体中文和 English。从这一版开始，侧边栏底部会显示版本；有更高正式版时可以在应用内打开下载。
 
 ## 下载与安装
 
-1. [下载正式 DMG](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.1/Ant-Clean-Mac-1.0.1-arm64.dmg)，也可先查看[发行说明](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.1)。
+1. [下载正式 DMG](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.2/Ant-Clean-Mac-1.0.2-arm64.dmg)，也可先查看[发行说明](https://github.com/Barsminto/ant-clean-mac/releases/tag/v1.0.2)。
 2. 打开 DMG，将 **Ant Clean.app** 拖到 **Applications（应用程序）**。
 3. 从应用程序文件夹启动。首次使用先查看状态、选择扫描范围，再审核结果。
 
-该版本使用 **Developer ID Application** 签名，启用 Hardened Runtime 与安全时间戳，已获 **Apple 公证**；App 和 DMG 均附带公证票据。无需关闭 Gatekeeper 或系统安全保护。签名、公证不等于保证软件永无缺陷。
+该版本使用 **Developer ID Application** 签名，并启用 Hardened Runtime 与安全时间戳。**尚未完成 Apple 公证**，从网络下载后 Gatekeeper 可能拦截。签名不等于保证软件永无缺陷。
 
-需要校验下载时，可获取 [SHA256SUMS](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.1/SHA256SUMS)：
+需要校验下载时，可获取 [SHA256SUMS](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.2/SHA256SUMS)：
 
 ```bash
-shasum -a 256 Ant-Clean-Mac-1.0.1-arm64.dmg
+shasum -a 256 Ant-Clean-Mac-1.0.2-arm64.dmg
 ```
 
 将输出与对应版本的 SHA256SUMS 比较；不要混用其他版本的校验值。
@@ -89,7 +89,7 @@ shasum -a 256 Ant-Clean-Mac-1.0.1-arm64.dmg
 ## 常见问题
 
 **免费吗？有订阅或激活吗？**  
-v1.0.1 的现有功能免费，无需登录、激活或机器登记，没有自动续费。打赏自愿，不解锁功能或承诺更新时限。
+v1.0.2 的现有功能免费，无需登录、激活或机器登记，没有自动续费。打赏自愿，不解锁功能或承诺更新时限。
 
 **必须联网吗？**  
 当前客户端的本机扫描、清理、监控及内置法律阅读不依赖账号或授权服务器。GitHub、官网链接、下载和反馈需要网络；macOS 也可能进行自身安全检查。
