@@ -63,7 +63,7 @@ These captures show the Chinese interface. Process lists are redacted for privac
 2. Open it and drag **Ant Clean.app** to **Applications**.
 3. Launch from Applications. Start by reviewing status, choosing a scan scope and checking the results.
 
-This release is **Developer ID Application signed** and uses Hardened Runtime with a secure timestamp. It is **not yet Apple notarized**, so Gatekeeper may block it after download. Signing does not guarantee that software has no defects.
+This release is **Developer ID Application signed**, uses Hardened Runtime and a secure timestamp, and is **Apple notarized**. The DMG has a stapled notarization ticket. Signing and notarization do not guarantee that software has no defects.
 
 To verify your download, obtain [SHA256SUMS](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.2/SHA256SUMS) and run:
 

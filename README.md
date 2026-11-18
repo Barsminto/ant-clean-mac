@@ -63,7 +63,7 @@
 2. 打开 DMG，将 **Ant Clean.app** 拖到 **Applications（应用程序）**。
 3. 从应用程序文件夹启动。首次使用先查看状态、选择扫描范围，再审核结果。
 
-该版本使用 **Developer ID Application** 签名，并启用 Hardened Runtime 与安全时间戳。**尚未完成 Apple 公证**，从网络下载后 Gatekeeper 可能拦截。签名不等于保证软件永无缺陷。
+该版本使用 **Developer ID Application** 签名，启用 Hardened Runtime 与安全时间戳，并已通过 **Apple 公证**。DMG 已装订公证票据。签名和公证不等于保证软件永无缺陷。
 
 需要校验下载时，可获取 [SHA256SUMS](https://github.com/Barsminto/ant-clean-mac/releases/download/v1.0.2/SHA256SUMS)：
 
