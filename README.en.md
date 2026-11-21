@@ -4,7 +4,7 @@
 
 Understand what takes up space before deciding what to remove. Ant Clean Mac brings cleanup, app management and process monitoring to Apple Silicon Macs.
 
-[Website](https://zimuai.top/) · [Download v1.0.2](https://zimuai.top/download/Ant-Clean-Mac-1.0.2-arm64.dmg) · [Release notes](CHANGELOG.en.md) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
+[Website](https://zimuai.top/) · [Download v1.1.0](https://zimuai.top/download/Ant-Clean-Mac-1.1.0-arm64.dmg) · [Release notes](CHANGELOG.en.md) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
 
 ## When it helps
 
@@ -16,7 +16,7 @@ Understand what takes up space before deciding what to remove. Ant Clean Mac bri
 ## Features
 
 ### System overview
-See storage, memory, CPU, uptime and resource-heavy processes. These are observations of current activity, not a promise of a fixed performance improvement after cleaning.
+See available space, storage use, CPU, memory, battery and uptime, and open tools from the home screen. These are observations of current activity, not a promise of a fixed performance improvement after cleaning.
 
 ### Processes and ports
 Inspect resource usage, historical graphs, parent/child processes and network or port connections. You can terminate selected processes; termination or force termination may interrupt tasks and connections or discard unsaved work.
@@ -25,7 +25,7 @@ Inspect resource usage, historical graphs, parent/child processes and network or
 Scan areas including system caches, app logs, Xcode and language-development leftovers. Review and select results before cleaning. Caches can be rebuilt, and development tools may later need to download or compile files again.
 
 ### App uninstallation
-Filter and sort by size, recent installation or usage information, and inspect related configuration and leftover files. Usage, installation dates and “never used” classifications rely on Spotlight metadata and available file timestamps. Missing records do not prove an app was never opened. Related-file detection is not guaranteed to be exhaustive or exclusive to one app.
+Sort by size, recent installation or name, and inspect related configuration and leftover files. Installation dates depend on available file timestamps. Related-file detection is not guaranteed to be exhaustive or exclusive to one app.
 
 ### Startup management
 Inspect LaunchAgents and LaunchDaemons and batch-enable, disable or remove items. Batch operations requiring elevated access combine administrator authorization requests. Changes can affect services; an unfamiliar item is not necessarily junk.
@@ -38,16 +38,16 @@ Review selected local browser traces, message attachments and related data. Conf
 
 ## Actual app screenshots
 
-These captures show the Chinese interface. Process lists are redacted for privacy; metrics reflect capture time. Tool screens are shown before scanning.
+These captures show the Chinese interface. Metrics reflect capture time. Tool screens are shown before scanning.
 
-![System overview showing storage, memory, CPU and quick tools, with process lists redacted](https://zimuai.top/assets/app-dashboard-20261116.webp)
+![System overview showing available space, status and quick tools](https://zimuai.top/assets/app-dashboard-20261121.webp)
 
 <details>
 <summary>View system junk and large-file screens</summary>
 
-![System junk scan scope before scanning](https://zimuai.top/assets/app-system-junk-20261116.webp)
+![System junk scan scope before scanning](https://zimuai.top/assets/app-system-junk-20261121.webp)
 
-![Large-file size thresholds with no personal files shown](https://zimuai.top/assets/app-large-files-20261116.webp)
+![Large-file size thresholds with no personal files shown](https://zimuai.top/assets/app-large-files-20261121.webp)
 
 </details>
 
@@ -55,21 +55,21 @@ These captures show the Chinese interface. Process lists are redacted for privac
 
 - Apple Silicon (M series), **arm64 only; Intel Macs are not supported**.
 - macOS 15 or later.
-- Current release: **1.0.2 (build 9)**. The interface supports Simplified Chinese and English. Starting with this release, the sidebar shows the version and can open a newer official download. The full history is in the [release notes](CHANGELOG.en.md).
+- Current release: **1.1.0 (build 10)**. The interface supports Simplified Chinese and English. The sidebar shows the version and can open a newer download from the website. The full history is in the [release notes](CHANGELOG.en.md).
 
 ## Release notes
 
-[CHANGELOG.en.md](CHANGELOG.en.md) records the changes from 1.0 through the current release. 1.0.2 (build 9) includes:
+[CHANGELOG.en.md](CHANGELOG.en.md) records the changes from 1.0 through the current release. 1.1.0 (build 10) includes:
 
-- A signed, notarized installer downloaded from the website.
-- The current version shown at the bottom of the sidebar.
-- Select-all no longer freezes the interface on large results.
-- Process details stay closed until the marker at the end of a row is clicked.
-- Uninstall confirms that files are deleted directly and are not moved to the Trash.
+- A signed, notarized installer downloaded from the website. This repository does not contain source code or the installer.
+- A redesigned home screen and sidebar. Click the sidebar mark to collapse it to icons.
+- System information is grouped text. Process monitoring shows CPU or memory figures centered under the list only while sorting by CPU or memory.
+- Settings is an unboxed list and no longer includes an appearance theme switch.
+- App uninstall no longer offers an unused sort or badge.
 
 ## Download and install
 
-1. [Download the official DMG](https://zimuai.top/download/Ant-Clean-Mac-1.0.2-arm64.dmg).
+1. [Download the official DMG](https://zimuai.top/download/Ant-Clean-Mac-1.1.0-arm64.dmg).
 2. Open it and drag **Ant Clean.app** to **Applications**.
 3. Launch from Applications. Start by reviewing status, choosing a scan scope and checking the results.
 
@@ -78,7 +78,7 @@ This release is **Developer ID Application signed**, uses Hardened Runtime and a
 To verify your download, obtain [SHA256SUMS](https://zimuai.top/download/SHA256SUMS) and run:
 
 ```bash
-shasum -a 256 Ant-Clean-Mac-1.0.2-arm64.dmg
+shasum -a 256 Ant-Clean-Mac-1.1.0-arm64.dmg
 ```
 
 Compare the output with SHA256SUMS from the same release, not a different version.
@@ -99,7 +99,7 @@ Related files can be shared by other apps. Browser data, attachments and develop
 ## FAQ
 
 **Is it free? Are there subscriptions or activation?**  
-Existing v1.0.2 features are free, without login, activation or device registration. There is no automatic renewal. Donations are optional and do not unlock features or guarantee updates on a schedule.
+Existing v1.1.0 features are free, without login, activation or device registration. There is no automatic renewal. Donations are optional and do not unlock features or guarantee updates on a schedule.
 
 **Does it need an internet connection?**  
 Local scanning, cleanup, monitoring and built-in legal reading do not depend on an account or licensing server. GitHub, website links, downloads and feedback need network access. macOS may also perform its own security checks.

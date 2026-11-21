@@ -1,6 +1,17 @@
 # Release notes
 
-Download the installer from the [website](https://zimuai.top/download/Ant-Clean-Mac-1.0.2-arm64.dmg). This page records version changes and does not include the installer.
+Download the installer from the [website](https://zimuai.top/download/Ant-Clean-Mac-1.1.0-arm64.dmg). This page records version changes. It does not include the installer or source code.
+
+## 1.1.0 (build 10)
+
+November 21, 2026
+
+- The installer is Developer ID signed, uses Hardened Runtime, and is Apple notarized. The stapled DMG is hosted on the website.
+- The home screen and sidebar are redesigned. Click the sidebar mark to collapse it to icons.
+- System information is grouped text. Process monitoring shows CPU or memory figures centered under the list only while sorting by CPU or memory.
+- Settings is an unboxed list and no longer includes an appearance theme switch.
+- App uninstall no longer offers an unused sort or badge.
+- In-app updates now read the version manifest on the website.
 
 ## 1.0.2 (build 9)
 
