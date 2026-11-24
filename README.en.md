@@ -4,7 +4,7 @@
 
 Understand what takes up space before deciding what to remove. Ant Clean Mac brings cleanup, app management and process monitoring to Apple Silicon Macs.
 
-[Website](https://zimuai.top/) · [Download v1.1.0](https://zimuai.top/download/Ant-Clean-Mac-1.1.0-arm64.dmg) · [Release notes](CHANGELOG.en.md) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
+[Website](https://zimuai.top/) · [Download v1.2.0](https://zimuai.top/download/Ant-Clean-Mac-1.2.0-arm64.dmg) · [Release notes](CHANGELOG.en.md) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
 
 ## When it helps
 
@@ -55,21 +55,19 @@ These captures show the Chinese interface. Metrics reflect capture time. Tool sc
 
 - Apple Silicon (M series), **arm64 only; Intel Macs are not supported**.
 - macOS 15 or later.
-- Current release: **1.1.0 (build 10)**. The interface supports Simplified Chinese and English. The sidebar shows the version and can open a newer download from the website. The full history is in the [release notes](CHANGELOG.en.md).
+- Current release: **1.2.0 (build 11)**. The interface supports Simplified Chinese and English. The sidebar shows the version and can open a newer download from the website. The full history is in the [release notes](CHANGELOG.en.md).
 
 ## Release notes
 
-[CHANGELOG.en.md](CHANGELOG.en.md) records the changes from 1.0 through the current release. 1.1.0 (build 10) includes:
+[CHANGELOG.en.md](CHANGELOG.en.md) records the changes from 1.0 through the current release. 1.2.0 (build 11) includes:
 
+- Before deleting a large file, the app lists apps and related files that may be affected.
+- Delete confirmation no longer describes moving an item to the Trash as always recoverable.
 - A signed, notarized installer downloaded from the website. This repository does not contain source code or the installer.
-- A redesigned home screen and sidebar. Click the sidebar mark to collapse it to icons.
-- System information is grouped text. Process monitoring shows CPU or memory figures centered under the list only while sorting by CPU or memory.
-- Settings is an unboxed list and no longer includes an appearance theme switch.
-- App uninstall no longer offers an unused sort or badge.
 
 ## Download and install
 
-1. [Download the official DMG](https://zimuai.top/download/Ant-Clean-Mac-1.1.0-arm64.dmg).
+1. [Download the official DMG](https://zimuai.top/download/Ant-Clean-Mac-1.2.0-arm64.dmg).
 2. Open it and drag **Ant Clean.app** to **Applications**.
 3. Launch from Applications. Start by reviewing status, choosing a scan scope and checking the results.
 
@@ -78,7 +76,7 @@ This release is **Developer ID Application signed**, uses Hardened Runtime and a
 To verify your download, obtain [SHA256SUMS](https://zimuai.top/download/SHA256SUMS) and run:
 
 ```bash
-shasum -a 256 Ant-Clean-Mac-1.1.0-arm64.dmg
+shasum -a 256 Ant-Clean-Mac-1.2.0-arm64.dmg
 ```
 
 Compare the output with SHA256SUMS from the same release, not a different version.
@@ -99,7 +97,7 @@ Related files can be shared by other apps. Browser data, attachments and develop
 ## FAQ
 
 **Is it free? Are there subscriptions or activation?**  
-Existing v1.1.0 features are free, without login, activation or device registration. There is no automatic renewal. Donations are optional and do not unlock features or guarantee updates on a schedule.
+Existing v1.2.0 features are free, without login, activation or device registration. There is no automatic renewal. Donations are optional and do not unlock features or guarantee updates on a schedule.
 
 **Does it need an internet connection?**  
 Local scanning, cleanup, monitoring and built-in legal reading do not depend on an account or licensing server. GitHub, website links, downloads and feedback need network access. macOS may also perform its own security checks.

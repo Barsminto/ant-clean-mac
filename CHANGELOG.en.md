@@ -1,6 +1,14 @@
 # Release notes
 
-Download the installer from the [website](https://zimuai.top/download/Ant-Clean-Mac-1.1.0-arm64.dmg). This page records version changes. It does not include the installer or source code.
+Download the installer from the [website](https://zimuai.top/download/Ant-Clean-Mac-1.2.0-arm64.dmg). This page records version changes. It does not include the installer or source code.
+
+## 1.2.0 (build 11)
+
+November 24, 2026
+
+- Before deleting a large file, the app lists apps and related files that may be affected.
+- Delete confirmation no longer describes moving an item to the Trash as always recoverable.
+- The installer is Developer ID signed and Apple notarized, and is hosted on the website. This repository does not include the installer or source code.
 
 ## 1.1.0 (build 10)
 
