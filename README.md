@@ -4,7 +4,7 @@
 
 看清占用，再决定清理什么。Ant Clean Mac 是面向 Apple Silicon 的 macOS 清理、应用管理与进程监控工具。
 
-[官方网站](https://zimuai.top/) · [下载 v1.3.0](https://zimuai.top/download/Ant-Clean-Mac-1.3.0-arm64.dmg) · [发行说明](CHANGELOG.md) · [反馈问题](https://github.com/Barsminto/ant-clean-mac/issues)
+[官方网站](https://zimuai.top/) · [下载 v1.3.2](https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg) · [发行说明](CHANGELOG.md) · [反馈问题](https://github.com/Barsminto/ant-clean-mac/issues)
 
 ## 适合什么场景
 
@@ -55,20 +55,21 @@
 
 - Apple Silicon（M 系列），仅提供 arm64 安装包；**不支持 Intel Mac**。
 - macOS 15 或更新版本。
-- 当前版本：**1.3.0（build 12）**，界面支持简体中文和 English。侧边栏底部显示版本；有更高正式版时可以在应用内打开官网下载。完整版本记录见 [发行说明](CHANGELOG.md)。
+- 当前版本：**1.3.2（build 14）**，界面支持简体中文和 English。侧边栏底部显示版本；有更高正式版时可以在应用内打开官网下载。完整版本记录见 [发行说明](CHANGELOG.md)。
 
 ## 发行说明
 
-[CHANGELOG.md](CHANGELOG.md) 记录从 1.0 到当前版本的变化。1.3.0（build 12）主要包括：
+[CHANGELOG.md](CHANGELOG.md) 记录从 1.0 到当前版本的变化。1.3.2（build 14）主要包括：
 
-- 大文件：树形选择扫描范围，并记住上次勾选；多卷并行扫描，可随时停止。
-- 大文件列表支持整行点选；按大小排序，同大小按最近修改时间排序。
+- 修复应用内检查更新可能误报已是最新版本。
+- 官网下载始终指向当前正式版（无需刷新页面也能下到最新包）。
+- 大文件：树形扫描范围、记住上次勾选；整行点选；多卷并行扫描与停止。
 - 删除前查看依赖，支持移入废纸篓或永久删除。
-- 安装包已签名并完成 Apple 公证，从官网下载。本仓库不提供源码，也不附带安装包。
+- 安装包已签名并完成 Apple 公证，从[官网](https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg)下载。本仓库不提供源码，也不附带安装包。
 
 ## 下载与安装
 
-1. [下载正式 DMG](https://zimuai.top/download/Ant-Clean-Mac-1.3.0-arm64.dmg)。
+1. [下载正式 DMG](https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg)。
 2. 打开 DMG，将 **Ant Clean.app** 拖到 **Applications（应用程序）**。
 3. 从应用程序文件夹启动。首次使用先查看状态、选择扫描范围，再审核结果。
 
@@ -77,7 +78,7 @@
 需要校验下载时，可获取 [SHA256SUMS](https://zimuai.top/download/SHA256SUMS)：
 
 ```bash
-shasum -a 256 Ant-Clean-Mac-1.3.0-arm64.dmg
+shasum -a 256 https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg
 ```
 
 将输出与对应版本的 SHA256SUMS 比较；不要混用其他版本的校验值。

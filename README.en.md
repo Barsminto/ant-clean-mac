@@ -4,7 +4,7 @@
 
 Understand what takes up space before deciding what to remove. Ant Clean Mac brings cleanup, app management and process monitoring to Apple Silicon Macs.
 
-[Website](https://zimuai.top/) · [Download v1.3.0](https://zimuai.top/download/Ant-Clean-Mac-1.3.0-arm64.dmg) · [Release notes](CHANGELOG.en.md) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
+[Website](https://zimuai.top/) · [Download v1.3.2](https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg) · [Release notes](CHANGELOG.en.md) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
 
 ## When it helps
 
@@ -55,20 +55,21 @@ These captures show the Chinese interface. Metrics reflect capture time. Tool sc
 
 - Apple Silicon (M series), **arm64 only; Intel Macs are not supported**.
 - macOS 15 or later.
-- Current release: **1.3.0 (build 12)**. The interface supports Simplified Chinese and English. The sidebar shows the version and can open a newer download from the website. The full history is in the [release notes](CHANGELOG.en.md).
+- Current release: **1.3.2 (build 14)**. The interface supports Simplified Chinese and English. The sidebar shows the version and can open a newer download from the website. The full history is in the [release notes](CHANGELOG.en.md).
 
 ## Release notes
 
-[CHANGELOG.en.md](CHANGELOG.en.md) records the changes from 1.0 through the current release. 1.3.0 (build 12) includes:
+[CHANGELOG.en.md](CHANGELOG.en.md) records the changes from 1.0 through the current release. 1.3.2 (build 14) includes:
 
-- Large files: choose scan scope in a folder tree and remember your last selection; parallel multi-volume scanning with stop at any time.
-- Large-file list supports row-wide selection; sort by size, then by most recent modification when sizes match.
+- Fixes in-app update checks that could incorrectly report you are on the latest version.
+- The website download link always serves the current public installer without requiring a page refresh.
+- Large files: tree scan scope with remembered selection, row-wide selection, parallel multi-volume scanning with stop.
 - View dependencies before deleting; move to Trash or delete permanently.
-- A signed, notarized installer downloaded from the website. This repository does not contain source code or the installer.
+- Signed, notarized installer from the [website](https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg). This repository does not contain source code or the installer.
 
 ## Download and install
 
-1. [Download the official DMG](https://zimuai.top/download/Ant-Clean-Mac-1.3.0-arm64.dmg).
+1. [Download the official DMG](https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg).
 2. Open it and drag **Ant Clean.app** to **Applications**.
 3. Launch from Applications. Start by reviewing status, choosing a scan scope and checking the results.
 
@@ -77,7 +78,7 @@ This release is **Developer ID Application signed**, uses Hardened Runtime and a
 To verify your download, obtain [SHA256SUMS](https://zimuai.top/download/SHA256SUMS) and run:
 
 ```bash
-shasum -a 256 Ant-Clean-Mac-1.3.0-arm64.dmg
+shasum -a 256 https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg
 ```
 
 Compare the output with SHA256SUMS from the same release, not a different version.

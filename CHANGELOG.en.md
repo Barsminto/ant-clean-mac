@@ -1,16 +1,30 @@
 # Release notes
 
-Download the installer from the [website](https://zimuai.top/download/Ant-Clean-Mac-1.3.0-arm64.dmg). This file records version changes only; it does not include the installer or source code.
+Download from the [website](https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg) (`Ant-Clean-Mac-1.3.2-arm64.dmg` is the current installer file name). This file records version changes only; it does not include the installer or source code.
+
+## 1.3.2 (build 14)
+
+November 26, 2026
+
+- Fixes in-app update checks that could incorrectly report you are on the latest version.
+- Website download always serves the current public build; the in-app feed uses a separate manifest URL with less caching interference.
+- Includes the 1.3.0 large-file scan and list improvements and pre-delete dependency review.
+- Signed, notarized Developer ID build on the website. This repository does not include the installer or source code.
+
+## 1.3.1 (build 13)
+
+November 26, 2026
+
+- Improves update manifest fetching to reduce false negatives from HTTP caching.
 
 ## 1.3.0 (build 12)
 
-2026-11-26
+November 26, 2026
 
-- Large files: choose scan scope in a folder tree and remember your last selection; parallel multi-volume scanning with stop at any time.
-- Large-file list supports row-wide selection; sort by size, then by most recent modification when sizes match.
-- View dependencies before deleting; move to Trash or delete permanently.
+- Large files: folder tree scan scope with remembered selection; parallel multi-volume scanning with stop.
+- Row-wide selection; sort by size, then by modification date when sizes match.
+- View dependencies before delete; Trash or permanent delete.
 - Signed, notarized Developer ID build on the website. This repository does not include the installer or source code.
-
 
 ## 1.2.0 (build 11)
 
