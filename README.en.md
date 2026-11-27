@@ -4,7 +4,7 @@
 
 Understand what takes up space before deciding what to remove. Ant Clean Mac brings cleanup, app management and process monitoring to Apple Silicon Macs.
 
-[Website](https://zimuai.top/) · [Download v1.3.2](https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg) · [Release notes](CHANGELOG.en.md) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
+[Website](https://zimuai.top/) · [Pricing](https://zimuai.top/#pricing) · [Download v1.3.2](https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg) · [What's new](https://zimuai.top/releases.html) · [Release notes](CHANGELOG.en.md) · [Report an issue](https://github.com/Barsminto/ant-clean-mac/issues)
 
 ## When it helps
 
@@ -86,7 +86,7 @@ Compare the output with SHA256SUMS from the same release, not a different versio
 ## First use and permissions
 
 - Choose Chinese or English and adjust the monitoring interval in Settings.
-- Selected scans and cleanup run locally. The current free client requires no account, login, activation or device registration.
+- Selected scans and cleanup run locally. Each tool includes **2 free trial uses** before purchase; activate a license in the app after checkout. Licenses are sold via [Dodo Payments](https://zimuai.top/#pricing) as a one-time purchase (**$19.99 / ¥128**), valid on up to **2 Macs**, with free feature updates included.
 - macOS restricts access to some locations. Grant only permissions whose purpose you understand. Incomplete access can produce incomplete results; it does not prove files are absent.
 - System-level startup changes may show a macOS administrator prompt. Review the action first and never include administrator passwords in feedback.
 
@@ -98,11 +98,11 @@ Related files can be shared by other apps. Browser data, attachments and develop
 
 ## FAQ
 
-**Is it free? Are there subscriptions or activation?**  
-Existing v1.2.0 features are free, without login, activation or device registration. There is no automatic renewal. Donations are optional and do not unlock features or guarantee updates on a schedule.
+**How do I buy it? Is there a subscription?**  
+Purchase a one-time license on the [pricing page](https://zimuai.top/#pricing) through **Dodo Payments** (**$19.99 / ¥128**). There is **no auto-renewal**. Activate in the app after payment; one license covers up to **2 Macs** and includes free feature updates. Each tool offers **2 trial uses** before purchase.
 
 **Does it need an internet connection?**  
-Local scanning, cleanup, monitoring and built-in legal reading do not depend on an account or licensing server. GitHub, website links, downloads and feedback need network access. macOS may also perform its own security checks.
+Local scanning, cleanup, monitoring and built-in legal reading do not require a constant connection. Checkout, license activation, GitHub and website links, downloads and feedback need network access. macOS may also perform its own security checks.
 
 **Why can some files or startup items not be handled?**  
 System protection, access permissions, files in use or administrator authorization may limit actions. Review their purpose and permissions; do not lower system security just to clean files.
@@ -119,21 +119,17 @@ Use [GitHub Issues](https://github.com/Barsminto/ant-clean-mac/issues) and inclu
 
 Do not post personal files, usernames/private paths, tokens, license keys, full logs or passwords publicly. For privacy requests, first send only a non-sensitive contact request to arrange an appropriate channel.
 
-## Voluntary support
+## Buy a license
 
-Stars, shares, suggestions and optional donations support maintenance. Donations do not unlock features or create a subscription.
+- **Price**: $19.99 USD / ¥128, one-time purchase ([pricing](https://zimuai.top/#pricing))
+- **Coverage**: up to 2 Macs; free feature updates included
+- **Trial**: 2 uses per tool before purchase
+- **Checkout**: Dodo Payments; activate in the app after payment
 
-<details>
-<summary>Support via Alipay</summary>
-
-![Alipay payment QR code, recipient antiumbo (**阳)](assets/alipay-support.png)
-
-Choose any amount. No feature unlocks. Verify the recipient before paying.
-
-</details>
+See [website release notes](https://zimuai.top/releases.html) and this repo’s [CHANGELOG.en.md](CHANGELOG.en.md) for version history. Stars, shares and [GitHub Issues](https://github.com/Barsminto/ant-clean-mac/issues) are always welcome.
 
 ## About this repository
 
-This repository hosts downloads and feedback, **not the client source code**. Free use does not mean open source or grant redistribution or commercial rights that have not been expressly licensed.
+This repository hosts downloads and feedback, **not the client source code**. A paid license does not mean open source and does not grant redistribution or commercial rights that have not been expressly licensed.
 
 © 2026 Ant Clean Mac. All rights reserved.

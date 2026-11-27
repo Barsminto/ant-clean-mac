@@ -4,7 +4,7 @@
 
 看清占用，再决定清理什么。Ant Clean Mac 是面向 Apple Silicon 的 macOS 清理、应用管理与进程监控工具。
 
-[官方网站](https://zimuai.top/) · [下载 v1.3.2](https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg) · [发行说明](CHANGELOG.md) · [反馈问题](https://github.com/Barsminto/ant-clean-mac/issues)
+[官方网站](https://zimuai.top/) · [定价与购买](https://zimuai.top/#pricing) · [下载 v1.3.2](https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg) · [更新日志](https://zimuai.top/releases.html) · [发行说明](CHANGELOG.md) · [反馈问题](https://github.com/Barsminto/ant-clean-mac/issues)
 
 ## 适合什么场景
 
@@ -86,7 +86,7 @@ shasum -a 256 https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg
 ## 首次使用与权限
 
 - 在设置中选择中文或英文、调整监控采样间隔。
-- 文件扫描和清理按所选范围在本机进行。当前免费客户端无需账号、登录、激活或机器登记。
+- 文件扫描和清理按所选范围在本机进行。每个工具可先**免费试用 2 次**；购买许可证后在应用内激活。许可证通过 [Dodo Payments](https://zimuai.top/#pricing) 买断，**¥128 / $19.99**，授权最多 **2 台 Mac**，含后续免费功能更新。
 - 某些目录受 macOS 文件访问权限限制；只在了解用途时授予必要权限。权限不足可能导致结果不完整，不表示文件不存在。
 - 系统级启动项操作可能弹出 macOS 管理员授权提示，请先核对操作。不要向反馈区提供管理员密码。
 
@@ -98,11 +98,11 @@ shasum -a 256 https://zimuai.top/download/Ant-Clean-Mac-latest-arm64.dmg
 
 ## 常见问题
 
-**免费吗？有订阅或激活吗？**  
-v1.3.2 的现有功能免费，无需登录、激活或机器登记，没有自动续费。打赏自愿，不解锁功能或承诺更新时限。
+**如何购买？有订阅吗？**  
+在 [官网定价页](https://zimuai.top/#pricing) 通过 **Dodo Payments** 一次买断（¥128 / $19.99），**无自动续费**。付款后在应用内激活许可证；一份许可证可绑定最多 **2 台 Mac**，含后续免费功能更新。每个工具购买前可先试用 **2 次**。
 
 **必须联网吗？**  
-当前客户端的本机扫描、清理、监控及内置法律阅读不依赖账号或授权服务器。GitHub、官网链接、下载和反馈需要网络；macOS 也可能进行自身安全检查。
+本机扫描、清理、监控及内置法律阅读不依赖持续联网。购买与许可证激活、GitHub/官网链接、下载和反馈需要网络；macOS 也可能进行自身安全检查。
 
 **为什么有些文件或启动项无法处理？**  
 可能受系统保护、访问权限、文件正在使用或管理员授权限制。先确认用途与权限，不建议为清理而降低系统安全设置。
@@ -119,21 +119,17 @@ v1.3.2 的现有功能免费，无需登录、激活或机器登记，没有自�
 
 不要公开提交个人文件、用户名/私人路径、令牌、授权码、完整日志或密码。隐私请求请先仅提交不含敏感信息的联系请求，协商合适渠道。
 
-## 为爱发电
+## 购买许可证
 
-Star、分享、建议或自愿打赏都能支持维护。打赏不解锁功能，不构成订阅。
+- **价格**：¥128 / $19.99 USD，一次买断（[定价页](https://zimuai.top/#pricing)）
+- **授权**：最多 2 台 Mac；含后续免费功能更新
+- **试用**：每个工具购买前可免费试用 2 次
+- **结账**：通过 Dodo Payments 安全支付，付款后在应用内激活
 
-<details>
-<summary>支付宝自愿打赏</summary>
-
-![支付宝收款二维码，收款人 antiumbo（**阳）](assets/alipay-support.png)
-
-金额自愿，不解锁功能。付款前请核对收款人。
-
-</details>
+版本变化见 [官网更新日志](https://zimuai.top/releases.html) 与本仓库 [CHANGELOG.md](CHANGELOG.md)。欢迎 Star、分享或在 [GitHub Issues](https://github.com/Barsminto/ant-clean-mac/issues) 提出建议。
 
 ## 关于本仓库
 
-这是下载与反馈仓库，**不是客户端源码仓库**。免费使用不等于开源，也不授予未明确许可的再分发或商用权利。
+这是下载与反馈仓库，**不是客户端源码仓库**。付费许可证不等于开源，也不授予未明确许可的再分发或商用权利。
 
 © 2026 Ant Clean Mac. All rights reserved.
